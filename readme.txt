@@ -1,3 +1,3 @@
-except Li_clean.py, other files were copied from Li-Hua
+square matrix
 
-Li_clean integrate jf1map, jf45 as one
+old version: without octupole
