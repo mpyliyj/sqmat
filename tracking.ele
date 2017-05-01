@@ -1,0 +1,59 @@
+&run_setup
+    lattice = "nsls2sr_supercell_ch77_20150406-1.lte",
+	p_central_mev = 3000,
+    use_beamline=ringslice,
+	rootname="ring",
+!	parameters = %s.param,
+    !magnets = %s.mag
+    !final = %s.fin,
+    ! the second-order is needed here only for the twiss computations.
+    ! the tracking is done with kick elements
+    losses=%s.los
+    default_order = 3,
+&end
+
+
+!&load_parameters
+!        filename = junk.param,	
+!	change_defined_values = 1
+!	force_occurence_data = 1
+!&end
+
+
+
+
+
+&alter_elements name=*, type=CSBEN*, item=ISR, value=0 &end
+&alter_elements name=*, type=CSBEN*, item=SYNCH_RAD, value=0 &end
+&alter_elements name=*, type=CSBEN*, item=N_KICKS, value=30 &end
+&alter_elements name=*, type=CSBEN*, item=INTEGRATION_ORDER, value=4 &end
+&alter_elements name=*, type=KQUAD*, item=N_KICKS, value=25 &end
+!sextupoles kicks
+&alter_elements name=*, type=KSEXT*, item=N_KICKS, value=8 &end
+!&alter_elements name=MA0, item=DY, value=1e-6 &end
+!&alter_elements name=MA0, item=DX, value=<dx> &end
+!&alter_elements name=MA0, item=DXP, value=<dxp> &end
+!&alter_elements name=W1, type=WATCH, item=mode, value="coordinate" &end
+
+&run_control
+!if n_indices = 1, there will be a scan of one parameter
+        n_steps = 1,
+        n_indices = 0,
+        n_passes = <npass>
+&end
+
+
+
+&sdds_beam
+	input = beam.sdds,
+	input_type = "elegant",
+	prebunched = 0,	
+&end
+ 
+&track 
+&end
+
+&stop &end
+EOF
+
+

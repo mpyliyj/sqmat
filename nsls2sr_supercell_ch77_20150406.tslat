@@ -1,0 +1,188 @@
+# === Convert from Yongjun Li's pylatt input
+# === Element definition:
+hscraper1n: drift, L = 0;
+hscraper1p: drift, L = 0;
+hscraper2n: drift, L = 0;
+hscraper2p: drift, L = 0;
+hscraperxn: drift, L = 0;
+hscraperxp: drift, L = 0;
+vscraper1n: drift, L = 0;
+vscraper1p: drift, L = 0;
+vscraper2n: drift, L = 0;
+vscraper2p: drift, L = 0;
+b1g3c01a: Dipole, L = 2.62, angle =      0.10471976, e1 =      0.05236000, e2 =      0.05236000;
+b1g3c30a: Dipole, L = 2.62, angle =      0.10471976, e1 =      0.05236000, e2 =      0.05236000;
+b1g5c01b: Dipole, L = 2.62, angle =      0.10471976, e1 =      0.05236000, e2 =      0.05236000;
+b1g5c30b: Dipole, L = 2.62, angle =      0.10471976, e1 =      0.05236000, e2 =      0.05236000;
+D0001: Drift, L = 0;
+D0002: Drift, L = 0.661071;
+D0003: Drift, L = 1.23;
+D0004: Drift, L = 0.325206;
+D0005: Drift, L = 0.33421;
+D0006: Drift, L = 0.085;
+D0007: Drift, L = 0.081;
+D0008: Drift, L = 0.1485;
+D0009: Drift, L = 0.1255;
+D0010: Drift, L = 0.328;
+D0011: Drift, L = 0.184;
+D0012: Drift, L = 0.186;
+D0013: Drift, L = 0.07602;
+D0014: Drift, L = 0.08998;
+D0015: Drift, L = 0.1137;
+D0016: Drift, L = 0.2848;
+D0017: Drift, L = 0.1815;
+D0018: Drift, L = 0.601;
+D0019: Drift, L = 0.3755;
+D0020: Drift, L = 0.2015;
+D0021: Drift, L = 0.2552;
+D0022: Drift, L = 0.3144;
+D0023: Drift, L = 0.0844;
+D0024: Drift, L = 0.184;
+D0025: Drift, L = 0.184;
+D0026: Drift, L = 0.328;
+D0027: Drift, L = 0.176;
+D0028: Drift, L = 0.26226;
+D0029: Drift, L = 0.08924;
+D0030: Drift, L = 0.2605;
+D0031: Drift, L = 0.716;
+D0032: Drift, L = 0.591;
+D0033: Drift, L = 0.07822;
+D0034: Drift, L = 0.08778;
+D0035: Drift, L = 0.2575;
+D0036: Drift, L = 0.3021;
+D0037: Drift, L = 0.244;
+D0038: Drift, L = 0.23125;
+D0039: Drift, L = 0.23475;
+D0040: Drift, L = 0.0783;
+D0041: Drift, L = 0.0877;
+D0042: Drift, L = 0.46852;
+D00431: Drift, L = 2.96568;
+D00432: Drift, L = 2.83148;
+D0044: Drift, L = 0.33432;
+D0045: Drift, L = 0.09;
+D0046: Drift, L = 0.076;
+D0047: Drift, L = 0.23475;
+D0048: Drift, L = 0.23125;
+D0049: Drift, L = 0.244;
+D0050: Drift, L = 0.3021;
+D0051: Drift, L = 0.2575;
+D0052: Drift, L = 0.09008;
+D0053: Drift, L = 0.07592;
+D0054: Drift, L = 0.591;
+D0055: Drift, L = 0.501;
+D0056: Drift, L = 0.2755;
+D0057: Drift, L = 0.2015;
+D0058: Drift, L = 0.2552;
+D0059: Drift, L = 0.3144;
+D0060: Drift, L = 0.0844;
+D0061: Drift, L = 0.184;
+D0062: Drift, L = 0.184;
+D0063: Drift, L = 0.328;
+D0064: Drift, L = 0.176;
+D0065: Drift, L = 0.26226;
+D0066: Drift, L = 0.08924;
+D0067: Drift, L = 0.2605;
+D0068: Drift, L = 0.327011;
+D0069: Drift, L = 0.388989;
+D0070: Drift, L = 0.36634;
+D0071: Drift, L = 0.21366;
+D0072: Drift, L = 0.0896;
+D0073: Drift, L = 0.0764;
+D0074: Drift, L = 0.186;
+D0075: Drift, L = 0.184;
+D0076: Drift, L = 0.5785;
+D0077: Drift, L = 0.2235;
+D0078: Drift, L = 0.08059;
+D0079: Drift, L = 0.08541;
+D0080: Drift, L = 0.4629;
+D0081: Drift, L = 4.1871;
+ch1xg2c30a: drift, L = 0;
+ch1xg6c01b: drift, L = 0;
+ch1yg2c30a: drift, L = 0;
+ch1yg6c01b: drift, L = 0;
+ch2xg2c30a: drift, L = 0;
+ch2xg6c01b: drift, L = 0;
+ch2yg2c30a: drift, L = 0;
+ch2yg6c01b: drift, L = 0;
+cl1xg2c01a: drift, L = 0;
+cl1xg6c30b: drift, L = 0;
+cl1yg2c01a: drift, L = 0;
+cl1yg6c30b: drift, L = 0;
+cl2xg2c01a: drift, L = 0;
+cl2xg6c30b: drift, L = 0;
+cl2yg2c01a: drift, L = 0;
+cl2yg6c30b: drift, L = 0;
+cm1xg4c01a: drift, L = 0;
+cm1xg4c01b: drift, L = 0;
+cm1xg4c30a: drift, L = 0;
+cm1xg4c30b: drift, L = 0;
+cm1yg4c01a: drift, L = 0;
+cm1yg4c01b: drift, L = 0;
+cm1yg4c30a: drift, L = 0;
+cm1yg4c30b: drift, L = 0;
+fh1g1c02a: drift, L = 0;
+fh2g1c30a: drift, L = 0;
+fl1g1c01a: drift, L = 0;
+fl2g1c01a: drift, L = 0;
+fm1g4c01a: drift, L = 0;
+fm1g4c30a: drift, L = 0;
+isbu3: drift, L = 0.65;
+isbu4: drift, L = 0.65;
+issp1d: drift, L = 0.799513;
+ph1g2c30a: BPM, L = 0;
+ph1g6c01b: BPM, L = 0;
+ph2g2c30a: BPM, L = 0;
+ph2g6c01b: BPM, L = 0;
+pl1g2c01a: BPM, L = 0;
+pl1g6c30b: BPM, L = 0;
+pl2g2c01a: BPM, L = 0;
+pl2g6c30b: BPM, L = 0;
+pm1g4c01a: BPM, L = 0;
+pm1g4c01b: BPM, L = 0;
+pm1g4c30a: BPM, L = 0;
+pm1g4c30b: BPM, L = 0;
+qh1: Quadrupole, L = 0.268, K1 =     -0.64195731;
+qh2: Quadrupole, L = 0.46, K1 =      1.43673057;
+qh3: Quadrupole, L = 0.268, K1 =     -1.75355043;
+ql1: Quadrupole, L = 0.268, K1 =     -1.61785474;
+ql2: Quadrupole, L = 0.46, K1 =      1.76477357;
+ql3: Quadrupole, L = 0.268, K1 =     -1.51868268;
+qm1: Quadrupole, L = 0.247, K1 =     -0.81223482;
+qm2: Quadrupole, L = 0.282, K1 =      1.22615466;
+sh1: Sextupole, L = 0.2, K2 =     19.09710400;
+#sh3: Sextupole, L = 0.2, K2 =     -3.10963400;
+sh3: Sextupole, L = 0.2, K2 =     -4.4;
+sh4: Sextupole, L = 0.2, K2 =    -19.49461000;
+sl1: Sextupole, L = 0.2, K2 =     -8.51443400;
+sl2: Sextupole, L = 0.2, K2 =     32.72035900;
+sl3: Sextupole, L = 0.2, K2 =    -27.55513600;
+sm1a: Sextupole, L = 0.2, K2 =    -26.21867845;
+sm1b: Sextupole, L = 0.2, K2 =    -28.01658206;
+sm2: Sextupole, L = 0.25, K2 =     30.69679902;
+sqhg2c30a: Drift, L = 0.1;
+sqmg4c01a: Drift, L = 0.1;
+
+# === Beam line sequence:
+ring: LINE = (D0001, issp1d, D0002, isbu3, D0003,
+  isbu4, D0004, fh2g1c30a, D0005, sh1, D0006, ph1g2c30a, D0007, qh1, D0008,
+  sqhg2c30a, ch1xg2c30a, ch1yg2c30a, sqhg2c30a, D0009, hscraperxp, hscraperxn,
+  D0010, qh2, D0011, sh3, D0012, qh3, D0013, ph2g2c30a, D0014, sh4, D0015,
+  vscraper1p, vscraper1n, D0016, ch2xg2c30a, ch2yg2c30a, D0017, b1g3c30a,
+  D0018, cm1xg4c30a, cm1yg4c30a, D0019, qm1, D0020, sm1a, D0021, fm1g4c30a,
+  D0022, pm1g4c30a, D0023, qm2, D0024, sm2, D0025, qm2, D0026, hscraper1p,
+  hscraper1n, D0027, sm1b, D0028, pm1g4c30b, D0029, qm1, D0030, cm1yg4c30b,
+  cm1xg4c30b, D0031, b1g5c30b, D0032, ql3, D0033, pl2g6c30b, D0034, sl3,
+  D0035, cl2yg6c30b, cl2xg6c30b, D0036, ql2, D0037, sl2, D0038, cl1yg6c30b,
+  cl1xg6c30b, D0039, ql1, D0040, pl1g6c30b, D0041, sl1, D0042, fl1g1c01a,
+  D00431, D00432, fl2g1c01a, D0044, sl1, D0045, pl1g2c01a, D0046, ql1, D0047,
+  cl1xg2c01a, cl1yg2c01a, D0048, sl2, D0049, ql2, D0050, cl2xg2c01a, cl2yg2c01a,
+  D0051, sl3, D0052, pl2g2c01a, D0053, ql3, D0054, b1g3c01a, D0055, sqmg4c01a,
+  cm1xg4c01a, cm1yg4c01a, sqmg4c01a, D0056, qm1, D0057, sm1a, D0058, fm1g4c01a,
+  D0059, pm1g4c01a, D0060, qm2, D0061, sm2, D0062, qm2, D0063, hscraper2p,
+  hscraper2n, D0064, sm1b, D0065, pm1g4c01b, D0066, qm1, D0067, cm1yg4c01b,
+  cm1xg4c01b, D0068, vscraper2p, vscraper2n, D0069, b1g5c01b, D0070, ch2yg6c01b,
+  ch2xg6c01b, D0071, sh4, D0072, ph2g6c01b, D0073, qh3, D0074, sh3, D0075,
+  qh2, D0076, ch1yg6c01b, ch1xg6c01b, D0077, qh1, D0078, ph1g6c01b, D0079,
+  sh1, D0080, fh1g1c02a, D0081);
+
+setup, line="ring", shared=false;
